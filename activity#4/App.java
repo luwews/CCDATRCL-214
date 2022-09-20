@@ -10,8 +10,8 @@ public class App {
       INF214.add("Bablis");
       INF214.add("jalalon");
       INF214.add("paller");
-      System.out.println(INF214.size());
-      System.out.println(INF214.remove());
+      System.out.println(INF214.peek());
+      INF214.remove();
       INF214.remove();
       INF214.remove();
       INF214.remove();
@@ -23,6 +23,6 @@ public class App {
       INF214.add("par");
       INF214.add("lalo");
       System.out.println(INF214.size());
-    System.out.println(INF214.remove());
+    System.out.println(INF214.peek());
 }
 }
