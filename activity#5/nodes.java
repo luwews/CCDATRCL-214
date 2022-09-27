@@ -8,7 +8,7 @@ public class nodes {
     
     nodes right;
 
-    nodes middle;
+
 
     
     public nodes(String data) {
@@ -19,7 +19,6 @@ public class nodes {
        
         left = null;
         right = null;
-        middle=null;
-
+      
 }
 }
